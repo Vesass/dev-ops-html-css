@@ -1,0 +1,14 @@
+div {
+    background-color: lightblue;
+    width: 250px; /*px % pt em rem vw  */
+    height: 350px; /*px % pt em rem vh  */
+
+    /* margin = espace extérieur 
+       padding = espace intérieur*/
+    margin: 100px;
+    margin: 100px 50px 40px 30px;
+    padding: 50px;
+    
+    margin: 0 auto;
+    /* margin 0 auto permet de centrer horizontalement une div */
+}

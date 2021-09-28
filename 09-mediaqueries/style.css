@@ -1,0 +1,25 @@
+body {
+    /*  les règle classique sans média screen vont s'applique à toutes les tailles d'écran qui ne rentreront pas dans les conditions des medias screens */
+    background-color: salmon;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.toto {
+    display: flex;
+    list-style: none;
+    background-color: blue;
+}
+
+.toto li {
+    padding: 15px 10px;
+    border-right: 2px solid black;
+    
+}
+
+.toto li:hover {
+    background-color: red;
+}
